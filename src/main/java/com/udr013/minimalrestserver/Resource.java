@@ -1,4 +1,4 @@
-package com.udr013.jaxrsdemo;
+package com.udr013.minimalrestserver;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;

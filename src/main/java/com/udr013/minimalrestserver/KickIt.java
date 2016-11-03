@@ -1,4 +1,4 @@
-package com.udr013.jaxrsdemo;
+package com.udr013.minimalrestserver;
 
 // this is the application class for jaxrs
 import javax.ws.rs.ApplicationPath;

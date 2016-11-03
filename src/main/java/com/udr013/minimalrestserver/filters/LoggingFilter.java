@@ -1,4 +1,4 @@
-package com.udr013.jaxrsdemo.filters;
+package com.udr013.minimalrestserver.filters;
 
 import javax.ws.rs.container.ContainerRequestContext;
 import javax.ws.rs.container.ContainerRequestFilter;
