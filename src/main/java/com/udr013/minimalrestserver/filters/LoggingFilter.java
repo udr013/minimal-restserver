@@ -9,6 +9,9 @@ import java.io.IOException;
 
 @Provider
 public class LoggingFilter implements ContainerRequestFilter, ContainerResponseFilter {
+
+	String s = " now changed";
+
 	@Override
 	public void filter(ContainerRequestContext containerRequestContext) throws IOException {
 		System.out.println("Request: " + containerRequestContext.getHeaders().keySet().toString());
@@ -25,6 +28,8 @@ public class LoggingFilter implements ContainerRequestFilter, ContainerResponseF
 		System.out.println("Response: " + containerResponseContext.getHeaders());          //
 		System.out.println("Response: " + containerResponseContext.getAllowedMethods());
 		System.out.println("Response: " + containerResponseContext.getEntityClass());
+		System.out.println("Response: " + containerResponseContext.getEntity());
+		containerResponseContext.setEntity(s);
 		System.out.println("Response: " + containerResponseContext.getEntity());
 		System.out.println("Response: " + containerResponseContext.getStringHeaders());     //
 

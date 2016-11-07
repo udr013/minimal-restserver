@@ -1,0 +1,6 @@
+Filters to manipulate headers uri params
+
+ ContainerRequestFilter
+ ContainerResponseFilter
+
+Examples: Logging, Security

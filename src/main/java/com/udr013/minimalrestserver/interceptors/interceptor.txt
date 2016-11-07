@@ -1,0 +1,6 @@
+Interceptors to manipulate the Entities i- and output stream
+
+ReaderInterceptor
+WriterInterceptor
+
+Example: encoding, decoding entity
